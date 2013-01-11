@@ -29,6 +29,8 @@ LOCAL_PATH := vendor/motorola/xt926
 -include device/motorola/xt926dev/prebuilt.mk
 
 PRODUCT_COPY_FILES += \
+    vendor/motorola/xt926/proprietary/etc/firmware/melfas_45_7_15.fw:system/etc/firmware/melfas_45_7_15.fw
+PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
     vendor/motorola/xt926/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
     vendor/motorola/xt926/proprietary/bin/ATFWD-daemon:system/bin/ATFWD-daemon \
@@ -201,7 +203,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/motorola/xt926/proprietary/lib/libcurl.so:system/lib/libcurl.so \
     vendor/motorola/xt926/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
-    vendor/motorola/xt926/proprietary/etc/firmware/melfas_45_7_15.fw:system/etc/firmware/melfas_45_7_15.fw \
     vendor/motorola/xt926/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/xt926/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/motorola/xt926/proprietary/lib/libsensorhub_jni.so:system/lib/libsensorhub_jni.so \

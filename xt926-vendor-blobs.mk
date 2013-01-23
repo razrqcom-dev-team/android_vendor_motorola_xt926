@@ -136,7 +136,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libnativedrm1.so:system/lib/libnativedrm1.so \
     vendor/motorola/xt926/proprietary/lib/libnative_renderer.so:system/lib/libnative_renderer.so \
     vendor/motorola/xt926/proprietary/lib/libnetmgr.so:system/lib/libnetmgr.so \
-    vendor/motorola/xt926/proprietary/lib/libnfcpn544c3_fw.so:system/lib/libnfcpn544c3_fw.so \
     vendor/motorola/xt926/proprietary/lib/libNimsWrap.so:system/lib/libNimsWrap.so \
     vendor/motorola/xt926/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
     vendor/motorola/xt926/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
@@ -201,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/motorola/xt926/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
     vendor/motorola/xt926/proprietary/lib/libcurl.so:system/lib/libcurl.so \
-    vendor/motorola/xt926/proprietary/vendor/firmware/libpn544_fw.so:system/vendor/firmware/libpn544_fw.so \
     vendor/motorola/xt926/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/motorola/xt926/proprietary/lib/libsensor1.so:system/lib/libsensor1.so \
     vendor/motorola/xt926/proprietary/lib/libsensorhub_jni.so:system/lib/libsensorhub_jni.so \

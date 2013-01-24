@@ -175,7 +175,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
     vendor/motorola/xt926/proprietary/lib/libwiperjni_v02.so:system/lib/libwiperjni_v02.so \
     vendor/motorola/xt926/proprietary/lib/libxml.so:system/lib/libxml.so \
-    vendor/motorola/xt926/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/motorola/xt926/proprietary/lib/libxt_v02.so:system/lib/libxt_v02.so \
     vendor/motorola/xt926/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
     vendor/motorola/xt926/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \

@@ -103,6 +103,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/motorola/xt926/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/motorola/xt926/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
+    vendor/motorola/xt926/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
     vendor/motorola/xt926/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/motorola/xt926/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
     vendor/motorola/xt926/proprietary/lib/libdss.so:system/lib/libdss.so \
@@ -157,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libqmi_client_qmux.so:system/lib/libqmi_client_qmux.so \
     vendor/motorola/xt926/proprietary/lib/libqcci_legacy.so:system/lib/libqcci_legacy.so \
     vendor/motorola/xt926/proprietary/lib/libqsap_sdk.so:system/lib/libqsap_sdk.so \
+    vendor/motorola/xt926/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
     vendor/motorola/xt926/proprietary/lib/libquipc_os_api.so:system/lib/libquipc_os_api.so \
     vendor/motorola/xt926/proprietary/lib/libquipc_ulp_adapter.so:system/lib/libquipc_ulp_adapter.so \
     vendor/motorola/xt926/proprietary/lib/libQWiFiSoftApCfg.so:system/lib/libQWiFiSoftApCfg.so \
@@ -173,6 +175,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libwifiscanner.so:system/lib/libwifiscanner.so \
     vendor/motorola/xt926/proprietary/lib/libwiperjni_v02.so:system/lib/libwiperjni_v02.so \
     vendor/motorola/xt926/proprietary/lib/libxml.so:system/lib/libxml.so \
+    vendor/motorola/xt926/proprietary/lib/libxml2.so:system/lib/libxml2.so \
     vendor/motorola/xt926/proprietary/lib/libxt_v02.so:system/lib/libxt_v02.so \
     vendor/motorola/xt926/proprietary/lib/pp_proc_plugin.so:system/lib/pp_proc_plugin.so \
     vendor/motorola/xt926/proprietary/lib/qnet-plugin.so:system/lib/qnet-plugin.so \

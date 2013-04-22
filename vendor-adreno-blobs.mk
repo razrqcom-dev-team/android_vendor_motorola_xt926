@@ -23,4 +23,4 @@ PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/adreno/lib/libsc-a2xx.so:system/lib/libsc-a2xx.so \
 	$(LOCAL_PATH)/adreno/lib/libsc-a3xx.so:system/lib/libsc-a3xx.so \
 	$(LOCAL_PATH)/adreno/lib/libOpenVG.so:system/lib/libOpenVG.so \
-	$(LOCAL_PATH)/adreno/lib/libOpenCL.so:system/lib/libOpenCL.so \
+	$(LOCAL_PATH)/adreno/lib/libOpenCL.so:system/lib/libOpenCL.so

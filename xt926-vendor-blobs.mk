@@ -16,20 +16,11 @@
 
 LOCAL_PATH := vendor/motorola/xt926
 
-# Prebuilt libraries that are needed to build open-source libraries
-#PRODUCT_COPY_FILES := \
-#    vendor/motorola/xt926/proprietary/lib/libMali.so:obj/lib/libMali.so \
-#    vendor/motorola/xt926/proprietary/lib/libUMP.so:obj/lib/libUMP.so \
-
-#$(shell mkdir -p out/target/product/zatab/obj/SHARED_LIBRARIES/libMali_intermediates)
-#$(shell mkdir -p out/target/product/zatab/obj/SHARED_LIBRARIES/libUMP_intermediates)
-#$(shell touch out/target/product/zatab/obj/SHARED_LIBRARIES/libMali_intermediates/export_includes)
-#$(shell touch out/target/product/zatab/obj/SHARED_LIBRARIES/libUMP_intermediates/export_includes)
-
 -include device/motorola/xt926/prebuilt.mk
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/etc/firmware/melfas_45_7_15.fw:system/etc/firmware/melfas_45_7_15.fw
+
 PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
     vendor/motorola/xt926/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
@@ -141,7 +132,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libOmxEvrcDec.so:system/lib/libOmxEvrcDec.so \
     vendor/motorola/xt926/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
     vendor/motorola/xt926/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
-    vendor/motorola/xt926/proprietary/lib/libOpenCL.so:system/lib/libOpenCL.so \
     vendor/motorola/xt926/proprietary/lib/libopenssl-smime.so:system/lib/libopenssl-smime.so \
     vendor/motorola/xt926/proprietary/lib/libpanorama_jni.so:system/lib/libpanorama_jni.so \
     vendor/motorola/xt926/proprietary/lib/libpanorama.so:system/lib/libpanorama.so \

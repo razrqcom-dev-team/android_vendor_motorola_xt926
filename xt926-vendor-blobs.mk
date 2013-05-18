@@ -19,8 +19,11 @@ LOCAL_PATH := vendor/motorola/xt926
 -include device/motorola/xt926/prebuilt.mk
 
 PRODUCT_COPY_FILES += \
-    vendor/motorola/xt926/proprietary/etc/firmware/melfas_45_7_15.fw:system/etc/firmware/melfas_45_7_15.fw
-
+    vendor/motorola/xt926/proprietary/etc/firmware/melfas_45_7_15.fw:system/etc/firmware/melfas_45_7_15.fw \
+    vendor/motorola/xt926/proprietary/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml:system/etc/permissions/com.verizon.hardware.telephony.ehrpd.xml \
+    vendor/motorola/xt926/proprietary/etc/permissions/com.verizon.hardware.telephony.lte.xml:system/etc/permissions/com.verizon.hardware.telephony.lte.xml \
+    vendor/motorola/xt926/proprietary/etc/permissions/com.vzw.vzwapnlib.xml:system/etc/permissions/com.vzw.vzwapnlib.xml \
+    vendor/motorola/xt926/proprietary/lib/libmotricity.so:system/lib/libmotricity.so
 PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/bin/ap_gain.bin:system/bin/ap_gain.bin \
     vendor/motorola/xt926/proprietary/bin/ap_gain_mmul.bin:system/bin/ap_gain_mmul.bin \
@@ -84,7 +87,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
     vendor/motorola/xt926/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/motorola/xt926/proprietary/lib/libbt-aptx-4.0.4.so:system/lib/libbt-aptx-4.0.4.so \
-    vendor/motorola/xt926/proprietary/lib/libcaps.so:system/lib/libcaps.so \
     vendor/motorola/xt926/proprietary/lib/libcneapiclient.so:system/lib/libcneapiclient.so \
     vendor/motorola/xt926/proprietary/lib/libcneqmiutils.so:system/lib/libcneqmiutils.so \
     vendor/motorola/xt926/proprietary/lib/libcneutils.so:system/lib/libcneutils.so \
@@ -132,8 +134,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libOmxQcelp13Dec.so:system/lib/libOmxQcelp13Dec.so \
     vendor/motorola/xt926/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
     vendor/motorola/xt926/proprietary/lib/libopenssl-smime.so:system/lib/libopenssl-smime.so \
-    vendor/motorola/xt926/proprietary/lib/libpanorama_jni.so:system/lib/libpanorama_jni.so \
-    vendor/motorola/xt926/proprietary/lib/libpanorama.so:system/lib/libpanorama.so \
     vendor/motorola/xt926/proprietary/lib/libqc-opt.so:system/lib/libqc-opt.so \
     vendor/motorola/xt926/proprietary/lib/libqdi.so:system/lib/libqdi.so \
     vendor/motorola/xt926/proprietary/lib/libqdp.so:system/lib/libqdp.so \

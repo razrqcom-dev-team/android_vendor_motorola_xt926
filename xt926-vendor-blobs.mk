@@ -83,7 +83,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/motorola/xt926/proprietary/lib/libapnjni.so:system/lib/libapnjni.so \
     vendor/motorola/xt926/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
-    vendor/motorola/xt926/proprietary/lib/libaudioalsa.so:system/lib/libaudioalsa.so \
     vendor/motorola/xt926/proprietary/lib/libbabysit.so:system/lib/libbabysit.so \
     vendor/motorola/xt926/proprietary/lib/libbson.so:system/lib/libbson.so \
     vendor/motorola/xt926/proprietary/lib/libbt-aptx-4.0.4.so:system/lib/libbt-aptx-4.0.4.so \
@@ -111,7 +110,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libimssettings.so:system/lib/libimssettings.so \
     vendor/motorola/xt926/proprietary/lib/libmm-abl-oem.so:system/lib/libmm-abl-oem.so \
     vendor/motorola/xt926/proprietary/lib/libmm-abl.so:system/lib/libmm-abl.so \
-    vendor/motorola/xt926/proprietary/lib/libmm-audio-resampler.so:system/lib/libmm-audio-resampler.so \
     vendor/motorola/xt926/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
     vendor/motorola/xt926/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/motorola/xt926/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \

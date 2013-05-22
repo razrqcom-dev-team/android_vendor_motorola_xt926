@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/etc/thermald.conf:system/etc/thermald.conf \
     vendor/motorola/xt926/proprietary/etc/wifi/hostapd_default.conf:system/etc/wifi/hostapd_default.conf \
     vendor/motorola/xt926/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+    vendor/motorola/xt926/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/motorola/xt926/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     vendor/motorola/xt926/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/motorola/xt926/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
@@ -184,6 +185,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libmmwfdinterface.so:system/lib/libmmwfdinterface.so \
     vendor/motorola/xt926/proprietary/lib/libmmwfdsinkinterface.so:system/lib/libmmwfdsinkinterface.so \
     vendor/motorola/xt926/proprietary/lib/libmmwfdsrcinterface.so:system/lib/libmmwfdsrcinterface.so \
+    vendor/motorola/xt926/proprietary/lib/libgsl.so:system/lib/libgsl.so \
     vendor/motorola/xt926/proprietary/lib/libdataencrypt_openssl.so:system/lib/libdataencrypt_openssl.so \
     vendor/motorola/xt926/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so \
     vendor/motorola/xt926/proprietary/lib/libcnefeatureconfig.so:system/lib/libcnefeatureconfig.so \
@@ -198,13 +200,27 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libmmcamera_statsproc30.so:system/lib/libmmcamera_statsproc30.so \
     vendor/motorola/xt926/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
     vendor/motorola/xt926/proprietary/lib/libtcmdcameraservice.so:system/lib/libtcmdcameraservice.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_imx074_default_video.so:system/lib/libchromatix_imx074_default_video.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_imx074_preview.so:system/lib/libchromatix_imx074_preview.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_imx074_video_hd.so:system/lib/libchromatix_imx074_video_hd.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_imx074_zsl.so:system/lib/libchromatix_imx074_zsl.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_imx091_default_video.so:system/lib/libchromatix_imx091_default_video.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_imx091_preview.so:system/lib/libchromatix_imx091_preview.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_imx091_video_hd.so:system/lib/libchromatix_imx091_video_hd.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_ov2720_default_video.so:system/lib/libchromatix_ov2720_default_video.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_ov2720_preview.so:system/lib/libchromatix_ov2720_preview.so \
     vendor/motorola/xt926/proprietary/lib/libchromatix_ov8820_default_video.so:system/lib/libchromatix_ov8820_default_video.so \
     vendor/motorola/xt926/proprietary/lib/libchromatix_ov8820_hfr_60fps.so:system/lib/libchromatix_ov8820_hfr_60fps.so \
     vendor/motorola/xt926/proprietary/lib/libchromatix_ov8820_preview.so:system/lib/libchromatix_ov8820_preview.so \
     vendor/motorola/xt926/proprietary/lib/libchromatix_ov8820_video_hd.so:system/lib/libchromatix_ov8820_video_hd.so \
     vendor/motorola/xt926/proprietary/lib/libchromatix_ov8820_zsl.so:system/lib/libchromatix_ov8820_zsl.so \
-    vendor/motorola/xt926/proprietary/lib/libchromatix_s5k4e1_default_video.so:system/lib/libchromatix_s5k4e1_default_video.so \
-    vendor/motorola/xt926/proprietary/lib/libchromatix_s5k4e1_preview.so:system/lib/libchromatix_s5k4e1_preview.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_s5k3l1yx_default_video.so:system/lib/libchromatix_s5k3l1yx_default_video.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_s5k3l1yx_hfr_120fps.so:system/lib/libchromatix_s5k3l1yx_hfr_120fps.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_s5k3l1yx_hfr_60fps.so:system/lib/libchromatix_s5k3l1yx_hfr_60fps.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_s5k3l1yx_hfr_90fps.so:system/lib/libchromatix_s5k3l1yx_hfr_90fps.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_s5k3l1yx_preview.so:system/lib/libchromatix_s5k3l1yx_preview.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_s5k3l1yx_video_hd.so:system/lib/libchromatix_s5k3l1yx_video_hd.so \
+    vendor/motorola/xt926/proprietary/lib/libchromatix_s5k3l1yx_zsl.so:system/lib/libchromatix_s5k3l1yx_zsl.so \
     vendor/motorola/xt926/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/xt926/proprietary/vendor/lib/libwvdrm_L1.so:system/vendor/lib/libwvdrm_L1.so \
     vendor/motorola/xt926/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \

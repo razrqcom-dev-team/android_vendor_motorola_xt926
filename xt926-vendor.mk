@@ -18,3 +18,8 @@
 DEVICE_PACKAGE_OVERLAYS += vendor/motorola/xt926/overlay
 
 $(call inherit-product, vendor/motorola/xt926/xt926-vendor-blobs.mk)
+PRODUCT_PACKAGES += appdirectedsmspermission
+PRODUCT_PACKAGES += VerizonSSOEngine
+PRODUCT_PACKAGES += VZWAPNLib
+PRODUCT_PACKAGES += vzwapnpermission
+PRODUCT_PACKAGES += VZWAPNService

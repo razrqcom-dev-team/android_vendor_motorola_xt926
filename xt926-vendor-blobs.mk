@@ -16,4 +16,5 @@
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/etc/firmware/melfas_45_7_15.fw:system/etc/firmware/melfas_45_7_15.fw \
+    vendor/motorola/xt926/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/motorola/xt926/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so

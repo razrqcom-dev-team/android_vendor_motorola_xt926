@@ -76,6 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/etc/thermald.conf:system/etc/thermald.conf \
     vendor/motorola/xt926/proprietary/etc/wifi/hostapd_default.conf:system/etc/wifi/hostapd_default.conf \
     vendor/motorola/xt926/proprietary/etc/xtwifi.conf:system/etc/xtwifi.conf \
+    vendor/motorola/xt926/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
     vendor/motorola/xt926/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     vendor/motorola/xt926/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/motorola/xt926/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \

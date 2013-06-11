@@ -94,7 +94,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/motorola/xt926/proprietary/lib/libDivxDrm.so:system/lib/libDivxDrm.so \
     vendor/motorola/xt926/proprietary/lib/libdnshostprio.so:system/lib/libdnshostprio.so \
+    vendor/motorola/xt926/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
     vendor/motorola/xt926/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
+    vendor/motorola/xt926/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
     vendor/motorola/xt926/proprietary/lib/libdsi_netctrl.so:system/lib/libdsi_netctrl.so \
     vendor/motorola/xt926/proprietary/lib/libdsprofile.so:system/lib/libdsprofile.so \
     vendor/motorola/xt926/proprietary/lib/libdss.so:system/lib/libdss.so \

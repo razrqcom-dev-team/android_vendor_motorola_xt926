@@ -70,5 +70,12 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/etc/firmware/wcnss.b04:system/etc/firmware/wcnss.b04 \
     vendor/motorola/xt926/proprietary/etc/firmware/wcnss.mdt:system/etc/firmware/wcnss.mdt \
     vendor/motorola/xt926/proprietary/etc/firmware/melfas_45_7_15.fw:system/etc/firmware/melfas_45_7_15.fw \
+    vendor/motorola/xt926/proprietary/etc/firmware/apps.mbn:system/etc/firmware/apps.mbn \
+    vendor/motorola/xt926/proprietary/etc/firmware/fsg.mbn:system/etc/firmware/fsg.mbn \
+    vendor/motorola/xt926/proprietary/etc/firmware/rpm.mbn:system/etc/firmware/rpm.mbn \
+    vendor/motorola/xt926/proprietary/etc/firmware/sbl1.mbn:system/etc/firmware/sbl1.mbn \
+    vendor/motorola/xt926/proprietary/etc/firmware/sbl2.mbn:system/etc/firmware/sbl2.mbn \
+    vendor/motorola/xt926/proprietary/etc/firmware/sbl3.mbn:system/etc/firmware/sbl3.mbn \
+    vendor/motorola/xt926/proprietary/etc/firmware/tz.mbn:system/etc/firmware/tz.mbn \
     vendor/motorola/xt926/proprietary/lib/libqmiservices.so:system/lib/libqmiservices.so \
     vendor/motorola/xt926/proprietary/lib/libril-qc-qmi-1.so:system/lib/libril-qc-qmi-1.so

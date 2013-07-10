@@ -80,7 +80,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/lib/hw/sensorhub.msm8960.so:system/lib/hw/sensorhub.msm8960.so \
     vendor/motorola/xt926/proprietary/lib/hw/sensors.msm8960.so:system/lib/hw/sensors.msm8960.so \
     vendor/motorola/xt926/proprietary/lib/hw/sensors.oem.so:system/lib/hw/sensors.oem.so \
-    vendor/motorola/xt926/proprietary/lib/libacdbloader.so:system/lib/libacdbloader.so \
     vendor/motorola/xt926/proprietary/lib/libAKM.so:system/lib/libAKM.so \
     vendor/motorola/xt926/proprietary/lib/libapnjni.so:system/lib/libapnjni.so \
     vendor/motorola/xt926/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
@@ -229,3 +228,8 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/xt926/proprietary/etc/firmware/vidc.b03:system/etc/firmware/vidc.b03 \
     vendor/motorola/xt926/proprietary/etc/firmware/vidcfw.elf:system/etc/firmware/vidcfw.elf \
     vendor/motorola/xt926/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt
+
+# Mako libs
+PRODUCT_COPY_FILES += \
+    vendor/motorola/xt926/mako/lib/libacdbloader.so:system/lib/libacdbloader.so \
+
